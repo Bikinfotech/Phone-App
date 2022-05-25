@@ -17,7 +17,7 @@ public class PhoneBookController {
 	@Autowired
 	private PhoneBookService phoneBookService;
 
-	@GetMapping("/home")
+	@GetMapping("/")
 	public String viewHome() {
 		return "home";
 	}
